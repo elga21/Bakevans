@@ -1,0 +1,30 @@
+{
+  "name": "bakevans-website",
+  "version": "1.0.0",
+  "description": "Sitio web para Bakevans by Lina Bevans - Repostería artesanal a la medida",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "bakery",
+    "pasteles",
+    "reposteria",
+    "nodejs",
+    "express"
+  ],
+  "author": "Bakevans by Lina Bevans",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7",
+    "xlsx": "^0.18.5",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
